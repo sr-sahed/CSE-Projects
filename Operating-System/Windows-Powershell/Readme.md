@@ -1,4 +1,3 @@
-````markdown
 # Windows Setup Guide
 
 ## Bypass Windows Microsoft Account Setup
@@ -7,7 +6,7 @@
 2. Type the following command and press Enter:
    ```cmd
    start ms-cxh:localonly
-````
+
 
 ---
 
@@ -68,7 +67,4 @@ netsh int ip reset
    .\dev-setup.ps1
    ```
 
-```
 
-If you want me to add anything else or customize the style, just let me know!
-```
