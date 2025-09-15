@@ -20,9 +20,20 @@ Run the following commands on **Arch Linux** to execute the setup script:
 ```bash
 chmod +x custom-arch-setup.sh
 ./custom-arch-setup.sh
+```
+## 🐧 Debian Linux Setup
 
+Run the following commands on **Debian Linux** to execute the setup script:
+
+```bash
 chmod +x custom-debian-setup.sh
 ./custom-debian-setup.sh
+```
+## 🐧 Fedora Linux Setup
 
+Run the following commands on **Fedora Linux** to execute the setup script:
+
+```bash
 chmod +x custom-fedora-setup.sh
 ./custom-fedora-setup.sh
+```
