@@ -1,0 +1,37 @@
+bypass starting windows MS account 
+
+Press Shift + F10
+type - "start ms-cxh:localonly"
+
+
+active windows and office
+
+open PowerShell
+tye - "irm https://get.activated.win | iex"
+
+
+all software update
+open cmd as administrator
+type - "WINGET UPGRADE"
+type - "WINGET UPGRADE --ALL"
+
+
+Install common software
+
+winget install --id=Google.Chrome -e
+winget install --id=7zip.7zip -e
+
+
+Flush DNS / Reset Network Stack
+
+ipconfig /flushdns
+netsh winsock reset
+netsh int ip reset
+
+
+install development tools
+download dev setup run powershell here
+type - "
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\dev-setup.ps1
+"
