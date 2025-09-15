@@ -1,9 +1,0 @@
-chmod +x custom-arch-setup.sh
-./custom-arch-setup.sh
-
-
-chmod +x custom-debian-setup.sh
-./custom-debian-setup.sh
-
-chmod +x custom-fedora-setup.sh
-./custom-fedora-setup.sh
